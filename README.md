@@ -64,6 +64,7 @@ Before running CATS, we need to train a global model with source clients' traini
 ./pretrain_fedawi_${model}.sh
 ```
 Here `${model}` specifies the model architecture we use. We used resnet18 (ResNet-18) and resnet50 (ResNet-50) in our paper.
+
 Learn Adaptation Rates
 ```
 ./fed_train_${model}.sh
