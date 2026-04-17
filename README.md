@@ -81,4 +81,4 @@ shell: python main.py
 
 Moreover, we also prepare code for various datasets and model architectures. Please check the arguments function in the `option.py` file for more details.
 ## Acknowledgements
-This implementation is based on [ATP](https://github.com/baowenxuan/ATP) and [[DEYO](https://whitesnowdrop.github.io/DeYO/).
+This implementation is based on [ATP](https://github.com/baowenxuan/ATP) and [DEYO](https://whitesnowdrop.github.io/DeYO/).
