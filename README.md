@@ -61,7 +61,7 @@ This shell script will partition the CIFAR-100 dataset to 300 clients (240 sourc
 ## Train Global Model
 Before running CATS, we need to train a global model with source clients' training sets.
 ```
-./pretrain_fedawi_${model}.sh
+./pretrain_fedavg_${model}.sh
 ```
 Here `${model}` specifies the model architecture we use. We used resnet18 (ResNet-18) and resnet50 (ResNet-50) in our paper.
 
@@ -71,11 +71,11 @@ Learn Adaptation Rates
 ```
 Learn CAIN Thresholds
 ```
-python c_cifar100.py
+python c_cifar100_CAIN.py
 ```
 ## Fedderated Test-Time Adaptation with CATS-batch and CATS-online
 ```
-./CATS_test_${model}.sh
+./CATS_test${model}.sh
 ```
 You can run most of the experiments in our paper by  
 shell: python main.py
